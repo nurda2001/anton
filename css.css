@@ -27,7 +27,7 @@ img{
 	justify-content: center;
 	align-items: center;
 	border: 1px solid black;
-	box-shadow: 3px 6px 5px 5px rgba(0,0,0,0.35);
+	box-shadow: 3px 6px 5px 5px rgba(0,0,0,0.34);
 }
 .card-img{
 	width:50%;
@@ -37,4 +37,14 @@ img{
 	justify-content: center;
 	align-items: center; 
 	flex-direction: column;
+}
+
+
+@media screen and (max-width: 929px){
+	.card-img{
+		width:100%;
+	}
+	.card{
+		width:70%;
+	}
 }
