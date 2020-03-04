@@ -1,0 +1,40 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Allerta', sans-serif;
+}
+
+img{
+	width:100%;
+}
+
+.wrapper{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	width:35%;
+	flex-direction: column;
+	display:flex; 
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	box-shadow: 3px 6px 5px 5px rgba(0,0,0,0.35);
+}
+.card-img{
+	width:50%;
+}
+.card-text{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	flex-direction: column;
+}
